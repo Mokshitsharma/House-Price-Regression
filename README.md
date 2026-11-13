@@ -1,5 +1,21 @@
-# House Price Regression (Generic Tabular Regressor)
+<!-- readme-refresh 2026-11 -->
+<div align="center">
 
+# 🏡 House Price Regression
+
+**A reusable regressor for any tabular dataset**
+
+<img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" alt="Python" /> <img src="https://img.shields.io/badge/pandas-150458?style=for-the-badge&logo=pandas&logoColor=white" alt="pandas" /> <img src="https://img.shields.io/badge/scikit--learn-F7931E?style=for-the-badge&logo=scikitlearn&logoColor=white" alt="scikit-learn" />
+
+</div>
+
+## ✨ Highlights
+
+- scikit-learn Pipeline + ColumnTransformer with imputation and one-hot encoding
+- Compares Linear Regression with Random Forest and keeps the one with the lower RMSE
+- Saves the model with joblib; configured with `HOUSE_CSV` and `TARGET`
+
+<!-- body -->
 A Python script for training, evaluating, and saving a regression model to predict house prices using any tabular CSV data. Handles numeric and categorical features, missing values, scaling, and model selection. Designed for easy use with your own dataset.
 
 ## Features
@@ -72,3 +88,7 @@ pip install pandas numpy scikit-learn joblib
 MIT License — free for personal and educational use.
 
 ***
+
+---
+
+<div align="center"><sub>Built by <a href="https://github.com/Mokshitsharma">Mokshit Sharma</a> · <a href="https://mokshitsharma27.vercel.app/">Portfolio</a> · <a href="https://www.linkedin.com/in/mokshit-sharma-75b5ab305">LinkedIn</a></sub></div>
